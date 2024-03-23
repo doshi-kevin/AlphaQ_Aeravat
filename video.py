@@ -68,9 +68,9 @@ def main():
         # Display mean probability and print "yes" or "no"
         st.write("Mean Probability:", mean_probability)
         if mean_probability > 0.70:
-            st.write("No")
-        else:
             st.write("Yes")
+        else:
+            st.write("No")
 
 
 
